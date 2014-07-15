@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'yzjf4--62gvr*bf8#i+0n^_fod7se31ng)3t84vd3t2s69md4g'
+SECRET_KEY = 'XXXXX'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -90,14 +90,14 @@ LOGIN_URL = 'login'
 
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'michael.t.perret@gmail.com'
-EMAIL_HOST_PASSWORD = 'perret94'
+EMAIL_HOST_USER = 'XXXXXX'
+EMAIL_HOST_PASSWORD = 'XXXXXX'
 EMAIL_PORT = 587
-DEFAULT_FROM_EMAIL = 'michael.t.perret@gmail.com'
+DEFAULT_FROM_EMAIL = 'XXXXX'
 
-TWILIO_ACCOUNT_SID = 'ACa7a47f806d85349ac2fcdaf279bed1ec'
-TWILIO_AUTH_TOKEN = 'e2d18dd07498c6ecdf2a52ccb0dcb572'
-TWILIO_NUMBER = '+13367286243'
+TWILIO_ACCOUNT_SID = 'XXXXXX'
+TWILIO_AUTH_TOKEN = 'XXXXX'
+TWILIO_NUMBER = 'XXXXX'
 
 
 # Static files (CSS, JavaScript, Images)
