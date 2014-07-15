@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+    <form method="post" action=".">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <input type="submit" value="Submit">
+     </form>
+    <p>Address not there? <a href="{% url 'create_address' %}" target='blank'>Add one</a> (Opens in a new tab)</p>
+{% endblock content %}

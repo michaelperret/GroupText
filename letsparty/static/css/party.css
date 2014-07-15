@@ -1,0 +1,223 @@
+body {
+  font: 10pt/1.6em Georgia, Arial, Helvetica, sans-serif;
+  text-align: center;
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+h1 {
+  font: 48pt Georgia, Times New Roman, Times, serif;
+}
+h2 {
+  font: 18pt Georgia, Times New Roman, Times, serif;
+}
+h3 {
+  font: 12pt Georgia, Times New Roman, Times, serif;
+  padding: 12px 0 6px 0;
+}
+a, a:link, a:hover, a:active, a:visited {
+  color: #B3204D;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #666;
+}
+blockquote {
+  margin: 20px 20px 20px 20px;
+  padding: 0 20px 0 0;
+  font: 14pt Georgia, Times New Roman, Times, serif;
+  border: 2px solid #B3204D;
+  border-width: 0 2px 0 0;
+}
+/******** Top header ********/
+div#top {
+height: 220px;
+margin-bottom: 20px;
+background: #000;
+font: 184pt Georgia, Times New Roman, Times, serif;
+color: #FFF;
+text-align: right;
+overflow: hidden;
+}
+/******** Menu ********/
+div#menu {
+height: 40px;
+margin-bottom: 20px;
+background: #FFF;
+}
+div#menu ul {
+}
+div#menu li {
+  display: inline;
+  padding: 0 40px 0 0;
+  font: 12pt Arial, Helvetica, sans-serif;
+}
+div#menu li a {
+  font-weight: bold;
+}
+div#menu li a:visited {
+  color: #B3204D;
+}
+/******** Other ********/
+div.spacer {
+height: 120px;
+}
+div.headline {
+height: 120px;
+}
+/******** Large boxes (220x220) with characters ********/
+div#largebox1 {
+height: 220px;
+background: #0CA5B0;
+font: 196pt Georgia, Times New Roman, Times, serif;
+color: #FFF;
+text-align: right;
+overflow: hidden;
+}
+div#intro1 {
+  color: #0CA5B0;
+  height: 120px;
+}
+div#largebox2 {
+height: 220px;
+background: #939461;
+font: 196pt Georgia, Times New Roman, Times, serif;
+color: #FFF;
+text-align: right;
+overflow: hidden;
+}
+div#intro2 {
+  color: #939461;
+  height: 120px;
+}
+/******** Small (100x100) boxes ********/
+div.box {
+  height: 100px;
+  color: #FFF;
+  font: 12pt/1.6em Georgia, Times New Roman, Times, serif;
+  text-align: right;
+}
+div.box p {
+  padding: 5px 10px;
+}
+div.box span.date_day {
+  font: 20pt Georgia, Times New Roman, Times, serif;
+  display: block;
+}
+div#smallbox1 {
+  background: #4E3F30;
+}
+div#smallbox2 {
+  background: #616193;
+}
+/******** Sidebar ********/
+div#sidebar {
+
+}
+div#sidebar label {
+  margin: 12px 0;
+  font: 10pt Arial, Helvetica, sans-serif;
+}
+div#sidebar input {
+  margin: 6px 0;
+  background: #FFF;
+  color: #666;
+  font: 10pt Arial, Helvetica, sans-serif;
+  border: 1px solid #CCC;
+}
+div#sidebar p {
+  color: #666;
+}
+div#sidebar h3 {
+  margin: 20px 0 0 0;
+  padding: 12px 0 6px 0;
+  color: #666;
+  border: 1px solid #CCC;
+  border-width: 1px 0 0 0;
+  font: 11pt Georgia, Times New Roman, Times, serif;
+}
+/******** Comments ********/
+div.comments {
+  margin: 40px 0 0 0;
+}
+div.comment {
+  border: 1px solid #CCC;
+  border-width: 1px 0 0 0;
+  margin: 10px 0;
+  padding: 10px;
+}
+div.comment h4{
+  color: #666;
+  font: 12pt Georgia, Times New Roman, Times, serif;
+  display: inline;
+}
+div.comment span.no {
+  color: #666;
+  text-align: right;
+  font: 24pt Georgia, Times New Roman, Times, serif;
+  float: right;
+  width: 60px;
+
+}
+div.comment span.date {
+  color: #666;
+  padding: 0 0 0 40px;
+  font: 10pt Georgia, Times New Roman, Times, serif;
+}
+/******** Comment form ********/
+#commentform {
+  background: #EEE;
+  border: 1px solid #CCC;
+  border-width: 1px 0;
+  margin: 40px 0 40px 120px;
+  padding: 10px 10px 10px 0;
+}
+p#commentformlabel {
+  padding-left: 10px;
+  line-height: 30px;
+}
+#commentform label {
+  color: #666;
+}
+#commentform input, #commentform textarea {
+  background: #FFF;
+  color: #666;
+  border: 1px solid #CCC;
+  font: 10pt Arial, Helvetica, sans-serif;
+  margin: 6px 0;
+}
+/******** Footer ********/
+div#footer {
+  background: #000;
+  color: #FFF;
+  margin: 100px 0 0 0;
+  padding: 20px;
+}
+div#footer ul {
+  margin: 0 0 10px 0;
+}
+div#footer li {
+  display: inline;
+  font: 12pt Arial, Helvetica, sans-serif;
+  border: 1px solid #666;
+  border-width: 0 0 0 1px;
+}
+div#footer li a {
+  color: #FFF;
+  font: 10pt Arial, Helvetica, sans-serif;
+  padding: 0 60px 0 20px;
+  position: absolute;
+  bottom: 0;
+}
+.nav{
+    color:white;
+}
+
+input["TextArea"]{
+    color: gray;
+}

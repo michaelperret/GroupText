@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+    <div class="parties">
+        <h3 style="text-decoration: underline">Current Parties:</h3>
+        {% for party in parties %}
+        {{ party.title }}<br>
+        {% endfor %}
+    </div>
+{% endblock content %}

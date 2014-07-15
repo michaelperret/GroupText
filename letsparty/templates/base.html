@@ -1,0 +1,41 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/party.css' %}">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+{#    <span style="float:right;">#}
+{#        {% if user.is_authenticated %}#}
+{#            <a href="{% url 'profile' %}">{{ user.username }}</a>#}
+{#            <a href="{% url 'logout' %}">Logout</a>#}
+{#            {% if user.is_staff %}#}
+{#                <a href="{% url 'admin:index' %}">Admin Panel</a>#}
+{#            {% endif %}#}
+{##}
+{#        {% else %}#}
+{#            <a href="{% url 'login' %}">Login</a> | <a href="{% url 'register' %}">Register</a>#}
+{#        {% endif %}#}
+{#    </span>#}
+        <div class="top" id="nav" >
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'create' %}">Create a Party</a>
+            <a href="{% url 'create_address' %}">Add an Address</a>
+{#            <a href="{% url 'profile' %}">Profile</a> |#}
+{#            <a href="{% url 'faq' %}">FAQ</a> |#}
+{#            <a href="{% url 'blackjack' %}">Blackjack</a> |#}
+{#            <a href="{% url 'war' %}">War</a> |#}
+{#            <a href="{% url 'poker' %}">Poker</a>&nbsp;#}
+
+        </div>
+        <div class="logo">
+            <h1>Welcome to the party!</h1>
+        </div>
+        <br>
+
+        {% block content %}{% endblock content %}
+        <footer>Copyright Michael Perret 2014</footer>
+</body>
+</html>
