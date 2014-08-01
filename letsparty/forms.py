@@ -40,6 +40,7 @@ class NamedUserCreationForm(EmailUserCreationForm):
         fields = ("username", "email", "first_name", "last_name", "password1", "password2", "phone")
 
 
+# Why aren't you using model forms below for these? This will clean up your views that save these forms.
 class EventCreationForm(forms.Form):
     title = forms.CharField(max_length=40)
     date = forms.CharField(max_length=30)
