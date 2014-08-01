@@ -10,7 +10,7 @@ from django.http import HttpResponse
 from django_twilio.decorators import twilio_view
 from twilio.twiml import Response
 
-
+# Need to clean up the format of the file a bit, a lot of extra blank lines
 
 
 
@@ -50,7 +50,8 @@ def create(request):
         form = EventCreationForm(request.POST)
         if form.is_valid():
 
-
+            # Would be better to make a save function on your custom form that does the following code
+            # Then you can just call form.save() here like a ModelForm
             title = form.cleaned_data['title']
             date = form.cleaned_data['date']
             location = form.cleaned_data['location']
